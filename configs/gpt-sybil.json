@@ -22,7 +22,7 @@
   "tpu_size": 8,
 
   "bucket": "gpt-sybil-bucket",
-  "model_dir": "gpt_sybil_checkpoint",
+  "model_dir": "gpt_sybil_codesearchnet",
 
   "train_set": "codesearchnet.train.index",
   "val_set": {
@@ -42,7 +42,7 @@
   "ckpt_every": 400,
   "keep_every": 4000,
 
-  "name": "gpt-sybil-codesearchnet",
+  "name": "gpt-sybil-codesearchnet-trial2",
   "wandb_project": "gpt-sybil",
   "comment": ""
 }
