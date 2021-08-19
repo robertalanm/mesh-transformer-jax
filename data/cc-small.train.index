@@ -1,0 +1,2 @@
+gs://gpt-sybil-bucket/code_clippy/train/code_clippy_1.tfrecords
+gs://gpt-sybil-bucket/code_clippy/train/code_clippy_2.tfrecords
