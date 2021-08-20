@@ -12,19 +12,19 @@
     "per_replica_batch": 1,
     "gradient_accumulation_steps": 32,
   
-    "warmup_steps": 439,
-    "anneal_steps": 3955,
+    "warmup_steps": 794,
+    "anneal_steps": 7147,
     "lr": 5.0e-5,
     "end_lr": 1.0e-5,
     "weight_decay": 0.1,
-    "total_steps": 4394,
+    "total_steps": 7941,
   
     "tpu_size": 8,
   
     "bucket": "gpt-sybil-bucket",
-    "model_dir": "gpt-s-c3",
+    "model_dir": "gpt-s-math",
   
-    "train_set": "c3.train.index",
+    "train_set": "math.train.index",
     "val_set": {
     },
   
@@ -42,7 +42,7 @@
     "ckpt_every": 400,
     "keep_every": 4000,
   
-    "name": "gpt-sybil-c3-trial_1",
+    "name": "gpt-sybil-math",
     "wandb_project": "gpt-sybil",
     "comment": ""
   }
